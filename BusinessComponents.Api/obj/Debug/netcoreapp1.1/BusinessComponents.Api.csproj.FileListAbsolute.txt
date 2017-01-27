@@ -1,0 +1,10 @@
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/bin/Debug/netcoreapp1.1/Microsoft.DiaSymReader.Native.x86.dll
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/bin/Debug/netcoreapp1.1/Microsoft.DiaSymReader.Native.amd64.dll
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/bin/Debug/netcoreapp1.1/BusinessComponents.Api.deps.json
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/bin/Debug/netcoreapp1.1/BusinessComponents.Api.runtimeconfig.json
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/bin/Debug/netcoreapp1.1/BusinessComponents.Api.runtimeconfig.dev.json
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/bin/Debug/netcoreapp1.1/BusinessComponents.Api.dll
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/bin/Debug/netcoreapp1.1/BusinessComponents.Api.pdb
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/obj/Debug/netcoreapp1.1/BusinessComponents.Api.AssemblyInfo.cs
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/obj/Debug/netcoreapp1.1/BusinessComponents.Api.dll
+/Users/piotrblazejewicz/git/business-components-ng/BusinessComponents.Api/obj/Debug/netcoreapp1.1/BusinessComponents.Api.pdb
