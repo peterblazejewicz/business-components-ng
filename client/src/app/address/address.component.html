@@ -1,3 +1,108 @@
-<p>
-  address works!
-</p>
+<div class="row">
+  <div class="col-sm-8">
+    <form name="addressForm" novalidate>
+      <input type="hidden" />
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            Address Information
+          </h3>
+        </div>
+        <div class="panel-body">
+          <!-- ** BEGIN MESSAGE AREA ** -->
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="alert alert-danger
+                alert-dismissable" role="alert">
+                <button type="button" class="close" data-dismiss="alert">
+                  <span aria-hidden="true">
+                    &times;
+                  </span>
+                  <span class="sr-only">Close</span>
+                </button>
+                <ul>
+                  <li>
+                    msg.message
+                  </li>
+                  <li>
+                    Street 1 must be filled in.
+                  </li>
+                  <li>
+                    Street 1 must not be all lower case.
+                  </li>
+                  <li>
+                    Street 2 must not be all lower case.
+                  </li>
+                  <li>
+                    Street 3 must not be all lower case.
+                  </li>
+                  <li>
+                    Village must not be all lower case.
+                  </li>
+                  <li>
+                    City/Town must be filled in.
+                  </li>
+                  <li>
+                    City/Town must not be all lower case.
+                  </li>
+                  <li>
+                    Postal Code must be filled in.
+                  </li>
+                  <li>
+                    Zip Code must be filled in.
+                  </li>
+                  <li>
+                    Zip Code must be 5 characters long
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+        <!-- ** END MESSAGE AREA ** -->
+        <!-- ** BEGIN LOADING MESSAGE AREA ** -->
+        <div class="row">
+          <div class="col-sm-offset-1 col-sm-10 alert alert-warning">
+            <div class="text-center">
+              Please wait while loading address information...
+            </div>
+          </div>
+        </div>
+        <!-- ** END LOADING MESSAGE AREA ** -->
+        <!-- ** BEGIN ADDRESS ENTRY AREA ** -->
+        <div class="form-group">
+          <div class="row">
+            <div class="col-sm-6">
+              <label for="countries">
+                  Select Your Country
+                </label>
+              <select id="countries" name="countries" class="form-control"></select>
+            </div>
+          </div>
+        </div>
+        <!-- Display page based on country -->
+        <div ng-include="vm.selectedPage"></div>
+        <!-- ** END ADDRESS ENTRY AREA ** -->
+      </div>
+      <div class="panel-footer">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="pull-right">
+              <button type="button" class="btn btn-primary">
+                  <i class="glyphicon
+                  glyphicon-floppy-disk"></i>
+                  &nbsp;Save
+                </button>
+              <a class="btn btn-primary" formnovalidate="formnovalidate" href="#/">
+                <i class="glyphicon
+                  glyphicon-remove-circle">
+                  </i>
+                  &nbsp;Cancel
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </form>
+</div>
+</div>
